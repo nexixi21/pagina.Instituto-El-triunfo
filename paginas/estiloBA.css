@@ -1,0 +1,78 @@
+.banner {
+	width: 700px;
+	height: 275px;
+	border: 5px solid white ;
+	margin: auto;
+
+	background-image: url("C:/Users/Jaime/Desktop/Instituto El Triunfo Grupo 3/paginas/imgB/1.jpg");
+	background-size:100% 100%;
+	animation-name: banner;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+@keyframes banner {
+	0%, 30% {
+		background-image: url("C:/Users/Jaime/Desktop/Instituto El Triunfo Grupo 3/paginas/imgB/1.jpg");
+		opacity: 1;
+	}
+
+    31%, 34% {
+    	opacity: 0.1;
+    }
+	35%, 65% {
+		background-image: url("C:/Users/Jaime/Desktop/Instituto El Triunfo Grupo 3/paginas/imgB/2.jpg");
+		opacity: 1;
+	}
+
+    66%, 69% {
+    	opacity: 0.1;
+    }
+	70%, 100% {
+		opacity: 1;
+		background-image: url("C:/Users/Jaime/Desktop/Instituto El Triunfo Grupo 3/paginas/imgB/3.jpg");
+	}
+}
+
+
+
+
+
+body {
+	font-family: sans-serif;
+	padding: 40px;
+	background-color: #B0E0E6;
+}
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+.btn-neon{
+    position: relative;
+    display: inline-block;
+    padding: 5px 15px;
+    color: black;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 12px;
+    overflow: hidden;
+    transition: 0.2;
+    border-style: solid;
+    border-color: black;
+}
+.btn-neon:hover{
+    background: #B0E0E6;
+    box-shadow: 0 0 10px black, 0 0 40px black, 0 0 80px black;
+    transition-delay: 0s;
+ }
+.btn-neon span{
+    position: absolute;
+    display: block;
+}
+#span1{
+    
+}
+
